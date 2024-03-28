@@ -1,0 +1,309 @@
+{
+    "intents": [
+      {
+        "tag": "programming-help",
+        "patterns": [
+          "Can you help me with programming?",
+          "I need help with programming.",
+          "How can you assist me in programming?"
+        ],
+        "responses": [
+          "Sure, I can help you with programming. What specifically do you need help with?",
+          "Of course! What do you need assistance with in programming?",
+          "I'd be happy to help with programming. What do you need guidance on?"
+        ]
+      },
+      {
+        "tag": "programming-roadmap",
+        "patterns": [
+          "Can you provide a roadmap to learn Python?",
+          "I want to learn Python. Where should I start?",
+          "What is the best way to learn Python?"
+        ],
+        "responses": [
+          "To learn Python, you can start with the basics of Python syntax, data types, and control flow. Then, move on to more advanced topics like object-oriented programming and libraries like NumPy and Pandas.",
+          "A good way to start learning Python is by understanding basic programming concepts like variables, loops, and functions. You can then explore more advanced topics based on your interests, such as web development, data science, or automation."
+        ]
+      },
+      {
+        "tag": "debugging",
+        "patterns": [
+          "How can I debug my code?",
+          "I'm having trouble debugging my code.",
+          "Can you help me debug my Python code?"
+        ],
+        "responses": [
+          "To debug your code, try using print statements to track the flow of your program and check the values of variables at different points. You can also use a debugger tool to step through your code and identify issues.",
+          "When debugging your code, start by isolating the problem. Use print statements or a debugger to identify where the code is not behaving as expected. Break down the problem into smaller parts to identify the root cause."
+        ]
+      },
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour","Hay", "Sasa", "Good Evening", "Good afternoon"],
+         "responses": ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
+        },
+        {"tag": "morning",
+            "patterns": ["Good morning"],
+            "responses": ["Good morning. What brings you here today?"]
+        },
+        {"tag": "coding?",
+      "patterns": [
+          "what is coding?", "coding?"
+      ],
+      "responses": [
+          "Coding is the composition of sequences of instructions, called programs, that computers can follow to perform tasks. It involves designing and implementing algorithms, step-by-step specifications of procedures, by writing code in one or more programming languages."
+      ]
+        },
+        {"tag": "afternoon",
+            "patterns": ["Good afternoon"],
+            "responses": ["Good afternoon. How is your day going?"]
+        },
+        {"tag": "evening",
+            "patterns": ["Good evening"],
+            "responses": ["Good evening. How has your day been?"]
+        },
+        {"tag": "python",
+            "patterns": ["python"],
+            "responses": ["Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability and a clean syntax, which makes it easy to learn and use."]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"],
+         "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        },
+        {"tag": "no-response",
+            "patterns": [""],
+            "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+        },
+        {"tag": "neutral-response",
+            "patterns": ["nothing much","nothing really","nothing"],
+            "responses": ["Oh I see. Do you want to talk about something?"]
+        },
+        {"tag": "creation",
+        "patterns": ["Who created you?", "How were you made?", "How were you created?"],
+        "responses": ["I was created by >.", "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques", "The real question is: Who created you?"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+    "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+    },
+    {"tag": "programming",
+    "patterns": ["What is programming?", "Programming?", "Define programming", "Programming definition", "What is to program"],
+    "responses": ["Programming, also known as coding, is the process of creating instructions that a computer can follow to perform specific tasks. These instructions are written in a programming language, which has its own syntax and rules. Programmers use these languages to write programs, which are sets of instructions that tell a computer how to perform a task or solve a problem. Programming allows developers to create software, websites, mobile apps, and much more. It is a fundamental skill in today's digital world."]
+    },
+    {"tag": "happy",
+    "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok"],
+    "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
+    },
+    {"tag": "understand",
+    "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what i'm going through", "You're useless", "You can't help me", "Nobody understands me."],
+    "responses": ["It sound like i'm not being very helpful right now.", "I'm sorry to hear that. I'm doing my best to help", "I'm trying my best to help you. So please talk to me"]
+    },
+    {"tag": "done",
+    "patterns": ["That's all.", "I don't have anything more to say", "Nothing else", "That's all i have to say", "no, that would be all"],
+    "responses": ["I heard you & noted it all. See you later.", "Oh okay we're done for today then. See you later", "I hope you have a great day. See you soon", "Okay we're done. Have a great day", "Okay I see. Enjoy the rest of your day then"]
+    },
+    {"tag": "something-else",
+        "patterns": ["I want to talk about something else", "Let's talk about something else.", "Can we not talk about this?", "I don't want to talk about this."],
+        "responses": ["Okay sure. What do you want to talk about?", "Alright no problem. Is there something you want to talk about?", "Is there something else that you want to talk about?"]
+    },
+    {
+        "tag": "programming-languages",
+        "patterns": [
+          "What are the different types of programming languages?", "programming languages",
+          "Can you list some programming languages?",
+          "Tell me about different programming languages."
+        ],
+        "responses": [
+          "There are many programming languages, each with its own strengths and purposes. Some popular programming languages include Python, Java, JavaScript, C++, and Ruby.",
+          "Programming languages can be broadly categorized into high-level languages like Python and Java, and low-level languages like Assembly and Machine Code. Each type has its own use cases and benefits."
+        ]
+      },
+      {
+        "tag": "how-to-code",
+        "patterns": [
+          "How do I start coding?",
+          "Can you teach me how to code?",
+          "I want to learn coding. Where should I begin?"
+        ],
+        "responses": [
+          "To start coding, you can begin by learning a programming language such as Python or JavaScript. You can start with basic tutorials and gradually move on to more complex topics as you become more comfortable.",
+          "Learning to code involves understanding basic programming concepts like variables, loops, and functions. You can start by practicing simple programs and gradually work your way up to more advanced projects."
+        ]
+      },
+      {
+        "tag": "java",
+        "patterns": [
+          "Tell me about Java programming language.",
+          "What is Java?",
+          "Can you explain Java to me?"
+        ],
+        "responses": [
+          "Java is a high-level, object-oriented programming language that was designed to be portable and platform-independent. It is widely used for building web applications, mobile apps, and enterprise software.",
+          "Java is known for its simplicity, readability, and maintainability. It has a large standard library and a strong community of developers."
+        ]
+      },
+      {
+        "tag": "css-syntax",
+        "patterns": [
+          "What is the syntax for CSS?",
+          "Can you explain CSS syntax?",
+          "How do I write CSS?"
+        ],
+        "responses": [
+          "CSS stands for Cascading Style Sheets, and it is used to style web pages written in HTML and XML. CSS syntax consists of a selector and a declaration block.",
+          "In CSS, you use selectors to target HTML elements and apply styling rules to them. The syntax for a CSS rule is selector { property: value; }."
+        ]
+      },
+      {
+        "tag": "html-syntax",
+        "patterns": [
+          "What is the syntax for HTML?",
+          "Can you explain HTML syntax?",
+          "How do I write HTML?"
+        ],
+        "responses": [
+          "HTML stands for HyperText Markup Language, and it is used to create the structure of web pages. HTML syntax consists of elements enclosed in angle brackets.",
+          "In HTML, you use tags to define different parts of a web page, such as headings, paragraphs, and images. The basic syntax for an HTML element is <tagname>content</tagname>."
+        ]
+      },
+    {
+        "tag": "odd-number",
+        "patterns": [
+          "How do I detect odd numbers in a sequence?",
+          "Can you help me find odd numbers in a list?",
+          "I need to identify odd numbers in a series of numbers."
+        ],
+        "responses": [
+          "To detect odd numbers in a sequence, you can iterate through the numbers and check if each number is divisible by 2. If the number is not divisible by 2, it is an odd number."
+        ]
+      },
+      {
+        "tag": "even-number",
+        "patterns": [
+          "How can I identify even numbers in a list?",
+          "Can you help me find even numbers?", "even number identification",
+          "I want to detect even numbers in a series of numbers."
+        ],
+        "responses": [
+          "To identify even numbers in a list, you can iterate through the numbers and check if each number is divisible by 2. If the number is divisible by 2, it is an even number."
+        ]
+      },
+      {
+        "tag": "addition",
+        "patterns": [
+          "How do I add two numbers in Python?",
+          "Can you help me with adding two numbers?",
+          "I need to perform addition in my program."
+        ],
+        "responses": [
+          "To add two numbers in Python, you can use the `+` operator. For example, to add 5 and 3, you would write `5 + 3`."
+        ]
+      },
+      {
+        "tag": "hello-world",
+        "patterns": [
+          "How do I print 'Hello World' in Python?",
+          "Can you show me how to print 'Hello World'?",
+          "I want to display 'Hello World' in my program."
+        ],
+        "responses": [
+          "To print 'Hello World' in Python, you can use the `print()` function. For example, to print 'Hello World', you would write `print('Hello World')`."
+        ]
+      },
+        {
+        "tag": "error-handling",
+        "patterns": [
+          "How should I handle errors in Python?",
+          "What is the best way to handle exceptions in Java?",
+          "I'm getting errors in my code. How can I fix them?"
+        ],
+        "responses": [
+          "In Python, you can use try-except blocks to handle exceptions. This allows you to gracefully handle errors and prevent your program from crashing. Make sure to log the errors for debugging purposes.",
+          "When handling errors in Java, you can use try-catch blocks to catch exceptions and handle them appropriately. It's important to handle exceptions gracefully to ensure your program continues to run smoothly."
+        ]
+      },
+      {
+        "tag": "java-features",
+        "patterns": [
+          "What are the main features of Java?",
+          "Can you list the main features of Java?",
+          "Tell me about the features of Java."
+        ],
+        "responses": [
+          "Java is a high-level, object-oriented programming language.",
+          "Java is platform-independent, which means it can run on any device that has a Java Virtual Machine (JVM).",
+          "Java is designed to be simple, secure, and portable, making it suitable for a wide range of applications."
+        ]
+      },
+      {
+        "tag": "two-numbers-addition",
+        "patterns": [
+          "Can you show me a program to add two numbers?", "Program to add two numbers",
+          "I want to see a program that adds two numbers."
+        ],
+        "responses": [
+          "Sure! Here's a simple Java program that adds two numbers:\n\n```java\npublic class AddNumbers {\n   public static void main(String[] args) {\n       int num1 = 5, num2 = 15, sum;\n       sum = num1 + num2;\n       System.out.println(\"Sum of these numbers: \"+sum);\n   }\n}\n```"
+        ]
+      },
+      {
+        "tag": "draw-shapes",
+        "patterns": [
+          "Can you provide a program that draws a circle and a triangle?", "Program that draws a circle and triangle",
+          "I'm looking for a Java program that illustrates the concept of shapes."
+        ],
+        "responses": [
+          "Here's a Java program that draws a circle and a triangle using methods:\n\n```java\npublic class Shapes {\n   public static void main(String[] args) {\n       drawCircle();\n       drawTriangle();\n   }\n   public static void drawCircle() {\n       System.out.println(\"* *\");\n       System.out.println(\"*   *\");\n       System.out.println(\"*     *\");\n       System.out.println(\"*   *\");\n       System.out.println(\"* *\");\n   }\n   public static void drawTriangle() {\n       System.out.println(\"  *  \");\n       System.out.println(\" * * \");\n       System.out.println(\"*****\");\n   }\n}\n```"
+        ]
+      },
+      {
+        "tag": "code-even-numbers",
+        "patterns": [
+          "Can you provide a code that lists even numbers?", "program to identify even numbers",
+          "I need a program that prints even numbers."
+        ],
+        "responses": [
+          "Here's a simple Java program that lists even numbers:\n\n```java\npublic class EvenNumbers {\n   public static void main(String[] args) {\n       int n = 10;\n       System.out.println(\"Even numbers up to \" + n + \":\");\n       for (int i = 1; i <= n; i++) {\n           if (i % 2 == 0) {\n               System.out.println(i);\n           }\n       }\n   }\n}\n```"
+        ]
+      },
+      {
+        "tag": "relationship-numbers",
+        "patterns": [
+          "How can I test the relationship between two numbers?",
+          "How do I use relational operators?",
+          "Can you help me with relational operators?"
+        ],
+        "responses": [
+          "To test the relationship between two numbers in C++, you can use relational operators like == (equal to), != (not equal to), < (less than), > (greater than), <= (less than or equal to), and >= (greater than or equal to).",
+          "In C++, you can use relational operators to compare two numbers and determine their relationship, such as whether one is greater than, less than, or equal to the other."
+        ]
+      },
+      {
+        "tag": "class-members",
+        "patterns": [
+          "How can I access members of a class?",
+          "Can you explain how members of a class are accessed?",
+          "I need help with accessing class members"
+        ],
+        "responses": [
+          "In C++, class members can be accessed using the dot (.) operator for objects and the arrow (->) operator for pointers to objects. You can access both member variables and member functions this way.",
+          "To access members of a class in C++, you use the dot (.) operator for objects and the arrow (->) operator for pointers to objects. This allows you to access both data members and member functions of a class."
+        ]
+      },
+      {
+        "tag": "natural-numbers",
+        "patterns": [
+          "How can I find the sum of natural numbers from 100 to 500 in C?", "How can I find the sum of natural numbers?", "How to find the sum of natural numbers?",
+          "Can you help me with a C program to find the sum of natural numbers?",
+          "I need a C program to find the sum of natural numbers from 100 to 500.", "natural numbers"
+        ],
+        "responses": [
+          "To find the sum of natural numbers from 100 to 500 in C, you can use a loop to iterate through the numbers and accumulate the sum. Here's a simple program to do that:\n\n```c\n#include <stdio.h>\n\nint main() {\n    int sum = 0;\n    for(int i = 100; i <= 500; i++) {\n        sum += i;\n    }\n    printf(\"The sum of natural numbers from 100 to 500 is: %d\\n\", sum);\n    return 0;\n}\n```",
+          "Here's a C program to find the sum of natural numbers from 100 to 500:\n\n```c\n#include <stdio.h>\n\nint main() {\n    int sum = 0;\n    for(int i = 100; i <= 500; i++) {\n        sum += i;\n    }\n    printf(\"The sum of natural numbers from 100 to 500 is: %d\\n\", sum);\n    return 0;\n}\n```"
+        ]
+      }
+    ]
+  }
+  
